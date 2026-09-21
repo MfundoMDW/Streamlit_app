@@ -39,7 +39,7 @@ st.caption(
 )
 
 st.caption(
-"Developed by [Raymond Mdwadube](https://github.com/RaymondM) - Empowering Data scientiscts & Enthusiasts Everywhere!"
+"Developed by [Mfundo Mdwadube](https://github.com/MfundoMDW) - Empowering Data scientiscts & Enthusiasts Everywhere!"
 )
 
 
@@ -68,7 +68,7 @@ def load_data(file):
 
 
 if uploaded_file:
-    try:
+    try: #To remove Session states 
         if (
             "df" not in st.session_state
             or st.session_state.get("file_name") != uploaded_file.name
@@ -192,7 +192,7 @@ if uploaded_file:
                             title=f"Distribution of Absolute Deviations from Median ({col_sel})",
                         )
 
-                        # Force scientific notation on axis tick labels
+                        # scientific notation on axis tick labels
                         fig_dev.update_xaxes(tickformat=".2e", showexponent="all", exponentformat="e")
                         fig_dev.update_yaxes(showexponent="all", exponentformat="e")
 
