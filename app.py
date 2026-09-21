@@ -39,7 +39,7 @@ st.caption(
 )
 
 st.caption(
-"Developed by [Raymond Mdwadube](https://github.com/RaymondM) - Empowering Data scientiscts & Enthusiasts Everywhere!"
+"Developed by [Mfundo Mdwadube](https://github.com/MfundoMDW) - Empowering Data scientiscts & Enthusiasts Everywhere!"
 )
 
 
